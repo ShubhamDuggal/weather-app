@@ -4,6 +4,7 @@ const details = document.querySelector('.details');
 const time = document.querySelector('img.time')
 const icon = document.querySelector('.icon')
 getMyLocation();
+
 const updateCity = async (city) => {
 
     const citydetails = await getcity(city);
